@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProjectLomdaWithLoginAndRegister.View.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectLomdaWithLoginAndRegister.View"
+        mc:Ignorable="d"
+        Title="OptionsWindow" Height="450" Width="800" Background="Plum">
+    <Grid>
+        <Label Content="Please choose the game you want to play" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button Content="Special Calculator" HorizontalAlignment="Left" Margin="203,227,0,0" VerticalAlignment="Top" Background="#ADD8E6" Foreground="Black" Click="redirectToSpacielCalculator" Height="37" Width="126"/>
+        <Button Content="Words Game" HorizontalAlignment="Left" Margin="464,227,0,0" VerticalAlignment="Top" Background="#FFFCF0F4" Click="redirectToWordsGame" Height="37" Width="126"/>
+        <Label x:Name="WellcomeLabel" Content="Label" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" FontSize="26"/>
+
+
+
+    </Grid>
+</Window>

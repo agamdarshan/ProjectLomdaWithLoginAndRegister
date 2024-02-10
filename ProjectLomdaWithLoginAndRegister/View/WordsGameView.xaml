@@ -1,0 +1,33 @@
+﻿<Window x:Class="ProjectLomdaWithLoginAndRegister.View.WordsGameView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectLomdaWithLoginAndRegister.View"
+        mc:Ignorable="d"
+        Title="WordsGameView" Height="450" Width="800">
+    <Grid Background="#FFFCF0F4" RenderTransformOrigin="0.863,0.541">
+        <Image x:Name="gameImage" HorizontalAlignment="Left" Height="135" Margin="300,261,0,0" VerticalAlignment="Top" Width="170">
+            <Image.Source>
+                <BitmapImage UriSource="C:\Users\User\source\repos\WordsGameNew\WordsGameNew\Images\BANANA.jpeg"/>
+            </Image.Source>
+        </Image>
+        <Button x:Name="getHintButton" Content="Get Hint" HorizontalAlignment="Left" Margin="360,236,0,0" VerticalAlignment="Top" Click="getHintButton_Click"/>
+        <Label x:Name="titleLabel" Content="Agam Words Game" HorizontalAlignment="Left" Margin="227,29,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="option1RadioButton" Content="o1" HorizontalAlignment="Left" Margin="222,139,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="option2RadioButton" Content="o2" HorizontalAlignment="Left" Margin="297,139,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="option3RadioButton" Content="o3" HorizontalAlignment="Left" Margin="368,138,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="option4RadioButton" Content="o4" HorizontalAlignment="Left" Margin="448,138,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="wordLabel" Content="word" HorizontalAlignment="Left" Margin="366,84,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+        <Label x:Name="okLabel" Content="OK" HorizontalAlignment="Left" Margin="684,84,0,0" VerticalAlignment="Top" Foreground="Green"/>
+        <Label x:Name="wrongLabel" Content="Wrong" HorizontalAlignment="Left" Margin="684,124,0,0" VerticalAlignment="Top" Foreground="Red"/>
+
+        <Label x:Name="wrongCountLabel" Content="Label" HorizontalAlignment="Left" Margin="727,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="okCountLabel" Content="Label" HorizontalAlignment="Left" Margin="727,84,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="gradeLabel" Content="Grade" HorizontalAlignment="Left" Margin="684,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="gradeNumberLabel" Content="Label" HorizontalAlignment="Left" Margin="727,163,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="sendAnswerButton" Content="Send Answer" HorizontalAlignment="Left" Margin="348,176,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <RadioButton x:Name="option5RadioButton" Content="o5" HorizontalAlignment="Left" Margin="513,139,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
